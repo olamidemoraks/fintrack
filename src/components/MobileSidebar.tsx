@@ -2,7 +2,7 @@
 import { sidebarMenu } from "@/store/sidebar";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React from "react";
 import { IMenu } from "../../type";
 import { sideMenu } from "../../constant";
 

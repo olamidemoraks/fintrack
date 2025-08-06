@@ -67,7 +67,7 @@ const TransactionTable: React.FC = () => {
           </tr>
         </thead>
         <tbody className=" bg-white">
-          {sortedTransactions.map((transaction, index) => (
+          {sortedTransactions.map((transaction) => (
             <tr key={transaction.id}>
               <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-500 border-b border-gray-200">
                 {transaction.date}

@@ -7,7 +7,7 @@ import { IMenu } from "../../type";
 import { sideMenu } from "../../constant";
 
 const Sidebar = () => {
-  const { open, isMobileMenu } = sidebarMenu();
+  const { open } = sidebarMenu();
   const pathname = usePathname();
   const [active, setActive] = useState("Dashboard");
   const isActive = (menu: IMenu) => {
